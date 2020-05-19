@@ -1,9 +1,6 @@
-codenation.exe
 HELP.md
-.idea
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
+target/
+!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
 
@@ -21,7 +18,6 @@ build/
 *.iws
 *.iml
 *.ipr
-out/
 
 ### NetBeans ###
 /nbproject/private/
@@ -29,6 +25,7 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
 
 ### VS Code ###
 .vscode/
